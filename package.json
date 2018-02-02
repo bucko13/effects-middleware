@@ -1,0 +1,24 @@
+{
+  "name": "effects-middleware",
+  "version": "1.0.0",
+  "description": "simple redux middleware to let other middleware (plugins) dispatch actions with side-effects Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bucko13/effects-middleware.git"
+  },
+  "keywords": [
+    "redux",
+    "middleware",
+    "react"
+  ],
+  "author": "bucko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bucko13/effects-middleware/issues"
+  },
+  "homepage": "https://github.com/bucko13/effects-middleware#readme"
+}
