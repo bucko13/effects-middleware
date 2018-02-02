@@ -3,7 +3,7 @@ simple redux middleware to let other middleware (plugins) dispatch actions with 
 
 The idea and code are originally from the [Hyper JS terminal emulator](https://hyper.is) by [Zeit](https://zeit.co/). This is just an effort to make it available as a standalone module. When creating a redux-based plugin system (as in Hyper), plugins can hook into events via a middleware export, which checks for certain action types and acts on them. In the words of the Hyper code comments: "It allows authors to interrupt, defer or add to existing side effects at will as the result of an action being triggered." And from the Hyper docs:
 
->>>This means that you can override, compose or completely eliminate effects! In other words, this is how you can change the default functionality or behavior of the app.
+>This means that you can override, compose or completely eliminate effects! In other words, this is how you can change the default functionality or behavior of the app.
 
 ## How to Use
 First install as normal
